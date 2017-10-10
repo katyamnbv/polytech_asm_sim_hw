@@ -1,3 +1,13 @@
 1. 
 mov A, 18
 mov B, 04
+
+2.
+mov A, 18
+mov B, 04
+mov C, A
+mov A, B
+mov B, C
+mov C, 0
+
+3.
