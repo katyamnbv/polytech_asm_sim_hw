@@ -33,3 +33,14 @@ INC B
 INC D
 CMP C,[B]
 JNZ OUT
+
+5.JMP kot 
+DB 5 
+kot: 
+mov A, 5 
+mov B, A 
+tok: 
+DEC B
+MUL B  
+CMP B,1 
+JNE tok
