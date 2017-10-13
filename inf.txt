@@ -10,4 +10,11 @@ mov A, B
 mov B, C
 mov C, 0
 
-3.
+3.JMP kot 
+DB 18 
+DB 04 
+kot: 
+MOV A, 18 
+MOV B, 04 
+ADD A, B 
+MOV B, 0
