@@ -18,3 +18,18 @@ MOV A, 18
 MOV B, 04 
 ADD A, B 
 MOV B, 0
+
+4.JMP START
+kot: 
+DB "18.04"
+DB 0
+START:
+MOV B,kot
+MOV D,232
+OUT:
+MOV A,[B]
+MOV [D],A
+INC B
+INC D
+CMP C,[B]
+JNZ OUT
